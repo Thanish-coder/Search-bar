@@ -1,0 +1,66 @@
+body{
+    text-align: center;
+    background-color: white;
+}
+
+.container{
+  
+border-color: yellow;
+border-style: normal;
+ 
+}
+
+.container:hover{
+    border-color:rgba(244, 192, 118, 0.6);
+}
+
+
+input{
+    width: 500px;
+    height : 40px;
+    background-color: white;
+    border-style: normal;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    border: none;
+    font-size: 18px;
+
+}
+
+button{
+    height:45px;
+    width: 40px;
+    background-color: rgba(244, 192, 118, 1);
+    border-right: 2px solid rgb(245, 150, 66);
+    border-style: normal;
+    padding: 0;
+    margin-right: 0;
+    margin-right: 0;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 20px;
+ 
+}
+ input:active{
+    border-color: rgba(244, 192, 118, 1);
+ }
+
+select{
+    height:45px;
+    width : 50px;
+    background-color: lightgrey;
+    border-style: normal;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 15px;
+    -webkit-appearance: arrow;
+    border-right: 1px grey solid;
+    
+
+}
